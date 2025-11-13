@@ -37,4 +37,10 @@ public class Sandwich {
                 calculatePrice()
         );
     }
+    // Getters
+    public int getSize() { return size; }
+    public String getBreadType() { return breadType; }
+    public boolean isToasted() { return toasted; }
+    public List<Topping> getToppings() { return List.copyOf(toppings); }
 }
+
