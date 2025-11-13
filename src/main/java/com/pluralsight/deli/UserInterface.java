@@ -28,7 +28,7 @@ public class UserInterface {
     private void runOrderFlow() {
         Order order = new Order();
         while (true) {
-            System.out.println("\n--- Order --- (newest items show first at checkout)");
+            System.out.println("\n--- Order ---  Best Sandwiches in Town");
             System.out.println("1) Add Sandwich");
             System.out.println("2) Add Drink");
             System.out.println("3) Add Chips");
