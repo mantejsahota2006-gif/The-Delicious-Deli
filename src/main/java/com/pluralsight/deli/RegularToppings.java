@@ -1,4 +1,4 @@
 package com.pluralsight.deli;
 
-public class RegularToppings extends Toppings {
+public class RegularToppings extends Topping {
 }
