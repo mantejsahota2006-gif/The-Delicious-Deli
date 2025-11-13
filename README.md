@@ -2,14 +2,17 @@
 
 ## Description of the Project
 
-Briefly describe what this Java console application does. Mention its purpose and who the intended users are. Explain the main functionality and what problems it aims to solve.
+I built a POS ordering system for the deli sandwich shop that lets customers fully customize their sandwiches. They can choose the bread, size, toppings, sauces, and whether they want it toasted, and they can also add drinks or chips to their order. The system calculates the full price, shows a complete order summary, and then saves a timestamped receipt. This project uses object-oriented design to organize all parts of the ordering process cleanly and efficiently.
 
 ## User Stories
 
 List the user stories that guided the development of your application. Format these stories as: "As a [type of user], I want [some goal] so that [some reason]."
 
-- As a user, I want to be able to input my data, so that the application can process it accordingly.
-- As a user, I want to receive immediate feedback, so I can understand what to do next.
+- As a cashier, I want to start a new order and add sandwiches, drinks, or chips, so that I can build a complete customer order from one screen.
+- As a customer, I want to choose the bread type, size, toppings, and sauces for my sandwich, so that I can fully personalize my order the way I like it.
+- As a customer, I want to see a summary of my entire order including all sandwiches and extras, so that I can confirm everything is correct before checkout.
+- As a system, I want to automatically generate and save a timestamped receipt file when an order is completed, so that every transaction is properly recorded for future reference.
+- As a cashier, I want to quickly add drinks and chips to an order with simple yes/no or size options, so that I can serve customers faster without unnecessary steps.
 
 ## Setup
 
@@ -32,14 +35,19 @@ Follow these steps to get your application running within IntelliJ IDEA:
 
 ## Technologies Used
 
-- Java: Mention the version you are using.
-- Any additional libraries or frameworks used in the project.
+- Java SDK 17
+- Intellij
 
 ## Demo
 
 Include screenshots or GIFs that show your application in action. Use tools like [Giphy Capture](https://giphy.com/apps/giphycapture) to record a GIF of your application.
 
 ![Application Screenshot](path/to/your/screenshot.png)
+
+
+## Class Diagram
+
+[Diagram Screenshot](![img.png](img.png))
 
 ## Future Work
 
