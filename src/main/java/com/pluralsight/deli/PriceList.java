@@ -47,4 +47,17 @@ public final class PriceList {
             default -> 0.0;
         };
     }
+    // Drinks by size
+    public static double drinkPrice(String size) {
+        String s = size == null ? "" : size.trim().toLowerCase();
+        return switch (s) {
+            case "small", "s" -> 2.00;
+            case "medium", "m" -> 2.50;
+            case "large", "l" -> 3.00;
+            default -> throw new IllegalArgumentException("Invalid drink size: " + size);
+        };
+    }
+
+    // Chips (flat)
+    public static final double CHIPS_PRICE = 1.50;
 }
