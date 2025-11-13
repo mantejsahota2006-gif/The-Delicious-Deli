@@ -8,8 +8,8 @@ public class Meat extends Topping {
     @Override
     public double getPrice(int sizeInches) {
         // Meat is premium: base meat add-on (+ extra add-on if extra)
-        double price = PriceList.meatAddon(sizeInches);
-        if (isExtra) price += PriceList.extraMeatAddon(sizeInches);
+        double price = PriceList.meatAddOn(sizeInches);
+        if (isExtra) price += PriceList.extraMeatAddOn(sizeInches);
         return price;
     }
 }
