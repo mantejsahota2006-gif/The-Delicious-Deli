@@ -58,8 +58,11 @@ Include screenshots or GIFs that show your application in action. Use tools like
 
 Outline potential future enhancements or functionalities you might consider adding:
 
-- Additional feature to be developed.
-- Improvement of current functionalities.
+- Gui
+- Better receipt format
+- More features
+- Discounts
+- Special Sandwiches
 
 ## Resources
 
